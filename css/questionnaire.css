@@ -1,0 +1,88 @@
+/* 全局样式 */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,td,img,div{margin:0;padding:0;border:0;}
+body{background:#cccccc;color:#111312;font-size:14px;font-family:Arial,"宋体";}
+
+li{list-style:none;}
+ul,ol{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+
+a{text-decoration:none;}
+a:link{color:#009;}
+a:visited{color:#800080;}
+a:hover,a:active,a:focus{color:#c00;}
+
+/* 常用字体 */
+.purpleBlod{font-size:16px;color:#b242c6;}
+.text_lineHeight30{line-height:30px;}
+.red{ color:#FF0000;}
+.red2{color:#c954a6; line-height:30px;}
+
+/* 常用链接 begin */
+a.linkRed:link,a.linkRed:visited{color:#111312!important;}/* 红色 */
+a.linkRed:hover{color:#ff0000!important;}
+a.linkRed2:link,a.linkRed2:visited{color:#ff0000; text-decoration:underline;}/* 红色2 */
+a.linkRed2:hover{text-decoration:none;}
+a.linkBlack_blod:link,a.linkBlack_blod:visited{color:#000!important;font-weight:bold;}/* 黑色粗 */
+a.linkBlack_blod:hover{text-decoration:underline;}
+a.linkBlack:link,a.linkBlack:visited{color:#111312!important;}/* 黑色 */
+a.linkBlack:hover{color:#ff0000!important;text-decoration:underline;}
+a.linkBlack2:link,a.linkBlack2:visited{color:#000;}/* 黑色2 */
+a.linkBlack2:hover{text-decoration:underline;}
+a.linkWhite:link,a.linkWhite:visited{color:#fff!important;}/* 白色 */
+a.linkWhite:hover{color:#024663!important;}
+a.linkBlue:link,a.linkBlue:visited{color:#0036fd!important; text-decoration:underline;}/* 蓝色 */
+a.linkBlue:hover{color:#ff0000!important; text-decoration:none;}
+a.linkgray:link,a.linkgray:visited{color:#666!important; text-decoration:none;}/* 灰色 */
+a.linkgray:hover{color:#000!important; text-decoration:underline;}
+
+/* 常用链接 end */
+
+/* page */
+#page{width:1200px;overflow: visible;margin:0 auto;padding-top:10px;background-image:url(../images/bg_top.jpg);background-repeat:repeat-y;}
+#content,#foot{float:left;width:1040px;padding:0 80px;background-image:url(../images/bg.jpg);background-repeat:repeat-y;}
+
+
+/* Head */
+#head{float:left;width:1040px;height:117px; background-image:url(../images/question_topbg.jpg);}
+.logo{float:left;padding:20px 0 20px 20px;width:169px;height:77px;background-image:url(../images/logobg.jpg);}
+
+
+/* Banner */
+#banner{float:left;width:1000px;height:294px; background-image:url(../images/question_banner.jpg);}
+
+
+/* main */
+#main{float:left; width:1000px; background-image:url(../images/pagebg.jpg);}
+.main_left{float:left;width:69px; height:400px; background-image:url(../images/main_left.jpg);}
+.main_right{float:left;width:920px;margin-right:11px;*margin-right:11px !important;*margin-right:5px;}
+
+/* right-说明 */
+.right_explain{float:left;width:920px;height:209px;background-image:url(../images/015.jpg);}
+.right_explainText{float:left;width:276px;height:127px;padding:82px 0 0 77px; font-weight:bold; line-height:30px;}
+.right_explainFlash{float:left;width:567px;height:209px;}
+
+/* right-问卷 */
+.right_question{float:left;width:840px;padding:0 0 0 80px; line-height:30px;}
+.question1,.question2,.questionPic,.question5,.question6,.question7,.question8{float:left;width:840px;}
+.question2,.question3,.question6,.question7,.question8{ margin-top:40px;}
+.question5{ margin-top:30px;}
+.question3{}
+.input_form {
+	width:300px;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #000000;
+	background:none;
+}
+.question_left{float:left; width:480px;}
+.question_right{float:left; width:360px;}
+.question_Ban{float:left;width:258px; height:302px; background-image:url(../images/ban.gif);}
+
+/* right-提交按钮 */
+.submit{float:left;width:370px; margin-top:50px; margin-bottom:30px; padding-left:270px;}
+
+/* 底部 foot */
+#foot{text-align:center;height:70px;line-height:70px;}
