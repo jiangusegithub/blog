@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bcaster autoPlayTime="5">
+<item item_url="images/image01.jpg" link="product_happymessage.html" itemtitle="喜信">
+</item>
+<item item_url="images/image02.jpg" link="product_ishow.html" itemtitle="爱秀团">
+</item>
+<item item_url="images/image03.jpg" link="product_tiancai.html" itemtitle="魔法天裁">
+</item>
+<item item_url="images/image04.jpg" link="product_myshow.html" itemtitle="我拍我秀">
+</item>
+<item item_url="images/image05.jpg" link="product_teli.html" itemtitle="泰力游戏">
+</item>
+</bcaster>
+        
